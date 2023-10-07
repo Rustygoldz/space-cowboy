@@ -1,6 +1,76 @@
+html{
+    background-color: #c7542a;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    width: 80vw;
+}
 .header{
     background-color: black;
+    padding: 20px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    color: white;
     
+}
+ul{
+    list-style-type: none;
+}
+a, a:visited{
+    text-decoration: none;
+    color: inherit;
+}
+/*header*/
+.hl{
+    width: 200px;
+}
+.crew{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 30px;
+}
+/*h1*/
+/*left*/
+.h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 50px;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 auto;
+}
+h1, .info{
+    text-align: center;
+}
+.join{
+    font-family: consolas;
+    background-color: #1f2f46;
+    color: white;
+    outline: none;
+    border: none;
+    box-shadow: 0 8px #494b4b;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+.join:active{
+    box-shadow: 0 4px #111a23;
+    transform: translateY(4px);
+}
+/*right*/
+.img{
+    display: flex;
+    align-items: center;
+}
+.bebop{
+    width: 40vw;
 }
