@@ -1,5 +1,6 @@
 html{
     background-color: #c7542a;
+    color: white;
     display: flex;
     justify-content: center;
 }
@@ -7,14 +8,10 @@ html{
     width: 80vw;
 }
 .header{
-    background-color: black;
-    padding: 20px;
+    padding: 20px 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    color: white;
-    border-radius: 5px;
-    
 }
 ul{
     list-style-type: none;
@@ -47,6 +44,7 @@ a, a:visited{
     gap: 50px;
 }
 .welcome{
+    color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -80,10 +78,12 @@ h1, .info{
     width: 40vw;
     border-radius: 5px;
 }
+.he1{
+    background-color: black;
+    border-radius: 5px;
+}
 /*crew members*/
 .cm{
-    background-color: #494b4b;
-    color: white;
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -102,10 +102,27 @@ h1, .info{
     border-radius: 5px;
 }
 /*quote*/
+.quote-container{
+    background-color: #242526;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    flex-grow: 1;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .q{
     font-size: 36px;
     font-weight: lighter;
+    margin: 0;
+
 }
 .ss{
     font-weight: bolder;
+    right: 0;
+    align-self: flex-end;
 }
