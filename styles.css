@@ -6,7 +6,6 @@ html{
 }
 .content{
     width: 80vw;
-    flex-grow: 1;
 }
 .header{
     padding: 20px 80px;
@@ -26,6 +25,10 @@ a, a:visited{
     text-shadow: 3px 3px #202121;
 }
 /*header*/
+.he1{
+    background-image: url("/img/space-bg.png");
+    border-radius: 5px;
+}
 .hl{
     width: 200px;
 }
@@ -79,10 +82,6 @@ h1, .info{
     width: 40vw;
     border-radius: 5px;
 }
-.he1{
-    background-color: black;
-    border-radius: 5px;
-}
 /*crew members*/
 .cm{
     display: flex;
@@ -104,7 +103,7 @@ h1, .info{
 }
 /*quote*/
 .quote-container{
-    background-color: #242526;
+    background-image: url("/img/space-bg.png");
     border-radius: 5px;
     display: flex;
     justify-content: center;
