@@ -13,6 +13,7 @@ html{
     flex-direction: row;
     justify-content: space-between;
     color: white;
+    border-radius: 5px;
     
 }
 ul{
@@ -21,6 +22,10 @@ ul{
 a, a:visited{
     text-decoration: none;
     color: inherit;
+}
+.title{
+    font-size: 48px;
+    text-shadow: 3px 3px #202121;
 }
 /*header*/
 .hl{
@@ -73,4 +78,34 @@ h1, .info{
 }
 .bebop{
     width: 40vw;
+    border-radius: 5px;
+}
+/*crew members*/
+.cm{
+    background-color: #494b4b;
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 80px;
+    border-radius: 5px;
+}
+.members{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.photo{
+    width: 10vw;
+    border: 5px solid #0f1010;
+    border-radius: 5px;
+}
+/*quote*/
+.q{
+    font-size: 36px;
+    font-weight: lighter;
+}
+.ss{
+    font-weight: bolder;
 }
